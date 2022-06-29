@@ -46,6 +46,7 @@ var fight = function(enemyName) {
   window.alert(enemyName + ' still has ' + enemyHealth + ' health left.');
 }
 
+
 // remove players's health by subtracting the amount set in the enemyAttack variable
 playerHealth = playerHealth - enemyAttack;
 console.log(
@@ -63,7 +64,7 @@ if (playerHealth <= 0) {
 } // end of while loop
 }; // end of fight function
 
-// function to start a new game
+// function to start a new game !
 var startGame = function() {
   // reset player stats
   playerHealth = 100;
